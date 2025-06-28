@@ -14,7 +14,7 @@ Secure AES-256 .env file encryption CLI tool with argon2/scrypt support.
 ## Installation
 
 ```bash
-npm install -g @your-username/envcrypt
+npm install -g fast-envcrypt
 ```
 
 ## Quick Start

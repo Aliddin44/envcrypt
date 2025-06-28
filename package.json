@@ -1,5 +1,5 @@
 {
-  "name": "@asliddin-muminov/envcrypt",
+  "name": "fast-envcrypt",
   "version": "1.0.0",
   "author": "Asliddin Muminov <asliddin4466@gmail.com>",
   "description": "Secure AES-256 .env file encryption CLI tool with argon2/scrypt support",
