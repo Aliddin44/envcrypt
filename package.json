@@ -2,6 +2,7 @@
   "name": "fast-envcrypt",
   "version": "1.0.2",
   "author": "Asliddin Muminov <asliddin4466@gmail.com>",
+  "private": false,
   "description": "Secure AES-256 .env file encryption CLI tool with argon2/scrypt support",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
