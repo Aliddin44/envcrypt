@@ -22,12 +22,17 @@ npm install -g fast-envcrypt
 ```bash
 # Encrypt .env file
 envcrypt encrypt .env
-
+#or
+npx envcrypt encrypt .env
 # Decrypt .env file
 envcrypt decrypt .env.enc
+#or
+npx envcrypt decrypt .env.enc
 
 # Load encrypted env vars into process.env
 envcrypt load .env.enc
+#or
+npx envcrypt load .env.enc
 ```
 
 ## Commands
@@ -69,18 +74,29 @@ Options:
 ```bash
 # Basic encryption
 envcrypt encrypt .env
+#or
+envcrypt encrypt .env
 
 # Custom output file
+envcrypt encrypt .env -o secrets.enc
+#or
 envcrypt encrypt .env -o secrets.enc
 
 # With password
 envcrypt encrypt .env -p mypassword123
+#or
+envcrypt encrypt .env -p mypassword123
 
 # Using scrypt algorithm
+envcrypt encrypt .env --algo scrypt
+#or
 envcrypt encrypt .env --algo scrypt
 
 # Load into environment
 envcrypt load .env.enc -p mypassword123
+#or
+envcrypt load .env.enc -p mypassword123
+
 ```
 
 ## Security
