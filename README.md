@@ -75,12 +75,12 @@ Options:
 # Basic encryption
 envcrypt encrypt .env
 #or
-envcrypt encrypt .env
+npx envcrypt encrypt .env
 
 # Custom output file
 envcrypt encrypt .env -o secrets.enc
 #or
-envcrypt encrypt .env -o secrets.enc
+npx envcrypt encrypt .env -o secrets.enc
 
 # With password
 envcrypt encrypt .env -p mypassword123
@@ -90,12 +90,12 @@ envcrypt encrypt .env -p mypassword123
 # Using scrypt algorithm
 envcrypt encrypt .env --algo scrypt
 #or
-envcrypt encrypt .env --algo scrypt
+npx envcrypt encrypt .env --algo scrypt
 
 # Load into environment
 envcrypt load .env.enc -p mypassword123
 #or
-envcrypt load .env.enc -p mypassword123
+npx envcrypt load .env.enc -p mypassword123
 
 ```
 
